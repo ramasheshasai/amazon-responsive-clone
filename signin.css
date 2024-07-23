@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.signin-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signin-logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #111;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2b23a;
+}
+
+.signin-help {
+    margin-top: 10px;
+}
+
+.signin-help a {
+    color: #0073bb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signin-help a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.new-to-amazon {
+    font-size: 14px;
+}
+
+.create-account {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e7e9ec;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #111;
+}
+
+.create-account:hover {
+    background-color: #d7d9dc;
+}
